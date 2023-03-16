@@ -2,16 +2,16 @@ source 'https://rubygems.org'
 
 gem 'middleman-spellcheck',:git => "https://github.com/mwils/middleman-spellcheck.git", :branch => 'class'
 gem "redcarpet"
-gem "activesupport", '~> 4.2.10'
+gem "activesupport", "~> 6.1.7", ">= 6.1.7.3"
 gem "highline"
 gem "rake"
 gem "coderay", :git => "https://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
+gem "middleman", "~> 4.4", ">= 4.4.0"
 gem "thin"
 gem "rack"
 gem "listen"
 gem "builder"
-gem "middleman-alias"
+gem "middleman-alias", ">= 0.0.17"
 gem "underscore-rails"
 gem "html-proofer"
 gem "middleman-toc", :git => "https://github.com/ember-learn/middleman-toc", :branch => "master"
