@@ -6,9 +6,9 @@ gem "activesupport", '~> 4.2.10'
 gem "highline"
 gem "rake"
 gem "coderay", :git => "https://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
+gem "middleman", "~> 4.6", ">= 4.6.0"
 gem "thin"
-gem "rack"
+gem "rack", ">= 2.2.14"
 gem "listen"
 gem "builder"
 gem "middleman-alias"
