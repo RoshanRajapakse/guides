@@ -6,19 +6,19 @@ gem "activesupport", '~> 4.2.10'
 gem "highline"
 gem "rake"
 gem "coderay", :git => "https://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
+gem "middleman", "~> 3.4", ">= 3.4.1"
 gem "thin"
 gem "rack"
 gem "listen"
 gem "builder"
-gem "middleman-alias"
+gem "middleman-alias", ">= 0.0.17"
 gem "underscore-rails"
 gem "html-proofer"
 gem "middleman-toc", :git => "https://github.com/ember-learn/middleman-toc", :branch => "master"
 
 gem "normalize-scss"
-gem "bourbon"
-gem "neat"
+gem "bourbon", ">= 7.0.0"
+gem "neat", ">= 1.7.3"
 
 source 'https://rails-assets.org' do
   gem "rails-assets-js-md5"
@@ -31,8 +31,8 @@ end
 
 group :test do
   gem "rspec"
-  gem "capybara"
-  gem "poltergeist"
+  gem "capybara", ">= 2.5.0"
+  gem "poltergeist", ">= 1.9.0"
   gem "hashie"
 end
 
